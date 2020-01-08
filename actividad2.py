@@ -1,7 +1,8 @@
+import sys
 from threading import Thread
 
-x = 10000000 + int(sys.argv[2])*10000
-y = 10000000 - int(sys.argv[2])*10000
+x = 10000000 + int(sys.argv[1])*10000
+y = 10000000 - int(sys.argv[1])*10000
 r = 0
 
 
